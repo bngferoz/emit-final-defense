@@ -1,0 +1,76 @@
+# Ignore all node_modules directories for Angular
+**/node_modules/
+
+# Ignore build outputs for Angular
+**/dist/
+**/out-tsc/
+
+# Ignore environment files in Angular project
+angular-ecommerce/src/environments/*.ts
+
+# Ignore IDE and editor folders
+**/.idea/
+**/.vscode/
+**/*.suo
+**/*.ntvs_analysis.dat
+**/*.njsproj
+**/*.sln
+**/*.sw?
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore local environment files
+**/.env
+**/.env.*.local
+
+# Ignore coverage reports
+**/coverage/
+
+# Ignore TypeScript cache
+**/*.tsbuildinfo
+
+# Ignore Docker files
+**/Dockerfile
+**/docker-compose.yml
+
+# Ignore Maven build and dependency directories
+**/api-gateway/target/
+**/multi-instance/target/
+**/service-discovery/target/
+
+# Ignore Maven wrapper files
+**/api-gateway/.mvn/
+**/multi-instance/.mvn/
+**/service-discovery/.mvn/
+**/api-gateway/.mvn/wrapper/mvnw
+**/multi-instance/.mvn/wrapper/mvnw
+**/service-discovery/.mvn/wrapper/mvnw
+**/api-gateway/.mvn/wrapper/mvnw.cmd
+**/multi-instance/.mvn/wrapper/mvnw.cmd
+**/service-discovery/.mvn/wrapper/mvnw.cmd
+**/api-gateway/.mvn/wrapper/*.jar
+**/multi-instance/.mvn/wrapper/*.jar
+**/service-discovery/.mvn/wrapper/*.jar
+
+# Ignore IDE files for each project
+**/api-gateway/.idea/
+**/multi-instance/.idea/
+**/service-discovery/.idea/
+
+# Ignore miscellaneous files
+**/*.log
+**/*.tmp
+
+# Specific to Angular
+angular-ecommerce/.angular/
+
+# Ignore local temporary files
+**/.temp/
+**/*.tmp
